@@ -6,8 +6,8 @@ https://github.com/Swordfish90/cool-retro-term#compile
 
 **Now you get COOL RETRO TERMINAL in application menu
 
-**Furthur help
-**Add these commands and apply shortcuts for to easily minimize and maximize the terminal (you can do this for any open application)
-*You need "xdotool" for this 
-minimize: xdotool search --class cool-retro-term windowminimize
-maximize or activate : xdotool search --class cool-retro-term windowactivate
+**Furthur help<br>
+**Add these commands and apply shortcuts for to easily minimize and maximize the terminal (you can do this for any open application)<br>
+*You need <code>"xdotool"</code> for this <br>
+minimize: <code>xdotool search --class cool-retro-term windowminimize</code>
+maximize or activate : <code>xdotool search --class cool-retro-term windowactivate</code>
