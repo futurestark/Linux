@@ -55,13 +55,11 @@ Example | A C++ hello world program.
     SET(CMAKE_SYSTEM_VERSION 1)
     # Define the cross compiler locations
     SET(CMAKE_C_COMPILER /path/to/your/raspberryPi_toolchain_folder/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc)
-    SET(CMAKE_CXX_COMPILER
-    /path/to/your/raspberryPi_toolchain_folder/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-g++)
+    SET(CMAKE_CXX_COMPILER /path/to/your/raspberryPi_toolchain_folder/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-g++)
     # When you start porting a code to a specific target platform, it is likely that the first problem you will face is to satisfy a few (many?) missing dependencies. 
     # These, dependencies can be satisfied in two ways: with static libraries or with shared libraries. Which are usually in the SYSROOT.
     # Thus we define the sysroot path for the RaspberryPi distribution in our raspberry-pi-tools folder.
-    SET(CMAKE_FIND_ROOT_PATH
-    /path/to/your/raspberryPi_toolchain_folder/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/)
+    SET(CMAKE_FIND_ROOT_PATH /path/to/your/raspberryPi_toolchain_folder/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/)
     # Search for programs or compiler tools only in the build host directories
     SET(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
     # Search for libraries and headers only in the target directories
