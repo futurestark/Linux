@@ -9,18 +9,18 @@ The steps are given here on [how to ssh your raspi](https://www.raspberrypi.org/
     2. Ethernet cable to connect to your linux system
     3. Linux system - say ubuntu (should work similarly with other linux OS as well) machine from here
 2. Make sure you Enable SSH in raspi first (you might need a graphical display for this step - this step is enough if done once):
-    1. Launch _Raspberry Pi Configuration_ from the _Preferences_ menu in the raspi machine.
-    2. Navigate to the _Interfaces_ tab
-    3. Select _Enabled_ next to _SSH_
-    4. Click _OK_.
+    1. Launch `Raspberry Pi Configuration` from the `Preferences` menu in the raspi machine.
+    2. Navigate to the `Interfaces` tab.
+    3. Select `Enabled` next to `SSH`.
+    4. Click `OK`.
 3. Connect ubuntu machine and raspi via ethernet cable.
 4. On Ubuntu machine:
     1. Goto : `Network Connections > Ethernet (wired connection name) > Settings for this wired connection`
-    2. Goto : `Ipv4 Settings Tab`
+    2. Goto : `Ipv4 Settings` Tab
     3. Select : `Method` as `Shared to other computers`.
 5. On Ubuntu machine terminal :
     1. Use one of the [method given here to find the IP address of your raspi](https://www.raspberrypi.org/documentation/remote-access/ip-address.md). Usually the first method - `ping raspberrypi.local` - should be enough and easy. This should give you the raspi IP.
-    2. Now type `ssh pi@<raspi_IP>` , type password when prompted for. By default the password is `raspberry`. Follow [this article to configure your Pi to allow your computer to access it without providing a password each time you try to connect](https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md). Basic idea for password less ssh is:
+    2. Now type `ssh pi@<raspi_IP>`, type password when prompted for. By default the password is `raspberry`. Follow [this article to configure your Pi to allow your computer to access it without providing a password each time you try to connect](https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md). Basic idea for password less ssh is:
         1. Generate a public key in your host system with `ssh-keygen`.
         2. Copy the public key to your raspberry pi using `ssh-copy-id <USERNAME>@<RASPI-IP-ADDRESS>`.
 6. Now you can do operations for example - [copy file(s) to and from your raspi](https://www.raspberrypi.org/documentation/remote-access/ssh/scp.md).
