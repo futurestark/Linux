@@ -24,7 +24,7 @@ Example | A C++ hello world program.
     - Setting PKG-CONFIG environment - so that it uses the libraries and packages from SYSROOT(of target system), and not the packages and libraries of host system.
 2. How to use [CMake](https://cmake.org/)?
     - How to use CMake for cross-compilation?
-    - Setting CMake flags, cmake-toolchain file and cmake file.
+    - Setting CMake flags, [cmake-toolchain file](https://cmake.org/cmake/help/v3.6/manual/cmake-toolchains.7.html#cross-compiling-for-linux) and cmake file.
 3. What is _[make](https://www.gnu.org/software/make/)_ and how to use it for building C++ project/binaries?
 
 #### Abstract of cross compilation workflow steps :
