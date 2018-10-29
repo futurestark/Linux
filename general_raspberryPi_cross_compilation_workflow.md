@@ -19,6 +19,9 @@ Example | A C++ hello world program.
 #### Prerequisite knowledge that will be helpful on understanding this documentation (a beginners knowledge is enough):
 1. What is cross compilation?
     - What is SYSROOT?
+        - skdjf
+            - skldfj
+                - klsdjf
     - What is [PKG-CONFIG](https://people.freedesktop.org/~dbn/pkg-config-guide.html)?
     - Some familiarity with bash command line.
     - Setting PKG-CONFIG environment - so that it uses the libraries and packages from SYSROOT(of target system), and not the packages and libraries of host system.
