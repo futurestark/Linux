@@ -1,2 +1,2 @@
-# linux
-find ways to do things in linux here
+# Linux
+Documenting ways to do things in linux.
