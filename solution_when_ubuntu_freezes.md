@@ -7,7 +7,7 @@
   U:  Remount file-systems as read-only <br>
   B:  Reboot
 
->Just as an information : *REISUB* is *BUSIER* backwards, as in "The System is busier than it should be", if you need to remember it. Or mnemonically - *R* eboot; *E* ven; *I* f; *S* ystem; *U* tterly; *B* roken.
+* Just as an information : **REISUB** is **BUSIER** backwards, as in "The System is busier than it should be", if you need to remember it. Or mnemonically - **R** eboot; **E** ven; **I** f; **S** ystem; **U** tterly; **B** roken.
 
 * Ref : [askubuntu](https://askubuntu.com/a/36717).
 
