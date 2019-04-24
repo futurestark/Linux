@@ -10,3 +10,4 @@
 5. [Installing and Uninstalling AMDGPU driver in Linux](https://github.com/roshanpoudyal/Linux/wiki/Installing-and-Uninstalling-AMDGPU-driver-in-Linux)
 6. [Setting up Unreal Engine 4 game engine in Linux](https://github.com/roshanpoudyal/Linux/wiki/Setting-up-Unreal-Engine-4-game-engine-in-Linux).
 7. [Install OpenCV with OpenCV Contrib (OpenCV extra modules) on Linux](https://github.com/roshanpoudyal/Linux/wiki/Install-OpenCV-with-OpenCV-Contrib-(OpenCV-extra-modules)-on-Linux)
+8. [Setting up OpenGL environment on Linux](https://github.com/roshanpoudyal/Linux/wiki/Setting-up-OpenGL-environment-on-Linux).
